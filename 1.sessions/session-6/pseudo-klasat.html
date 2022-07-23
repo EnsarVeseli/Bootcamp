@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo klasat (Pseudo classes)</title>
+    <style>
+
+        p:first-child,
+        p:nth-child(3) {
+            background-color: rgb(9, 219, 44);
+        }
+
+        h1, h3 {
+            color: red;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(199, 194, 194);
+            font-size: 24px;
+        } 
+
+        /* .bg-red {
+            background-color: rgb(214, 109, 11);
+        } */
+
+        a {
+            color: white;
+            background-color: black;
+            padding: 10px;
+        }
+
+        a:hover {
+            background-color: red;
+        }
+
+        a:active {
+            background-color: blueviolet;
+        }
+
+        a:visited {
+            background-color: rgb(219, 222, 27);
+        } 
+
+        p::before {
+            content: 'red';
+            padding: 20px;
+            display: block;
+            background-color: aqua;
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>test test</h1>
+    <h2>test test</h2>
+    <h3>test test</h3>
+
+    <h1>Data</h1>
+    
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto ipsa possimus officiis sunt laboriosam. Eos nam eveniet pariatur. Adipisci, impedit delectus modi quis eaque alias ipsum aspernatur dignissimos corrupti. Nostrum?
+    </p>
+
+    <a href="#">Download data</a>
+    <a href="https://google.com">For more visit Google</a>
+
+    <br><br><br>
+
+    <table border="1" cellspacing="5" cellpadding="10"> 
+        <tr class="bg-red">
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr class="bg-red">
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr class="bg-red">
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+        <tr class="bg-red">
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+        </tr>
+    </table>
+     
+
+    
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae a, voluptas fuga impedit similique temporibus ullam voluptatibus quidem atque libero, facere eum repudiandae, qui accusantium odio sint sequi minima.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae a, voluptas fuga impedit similique temporibus ullam voluptatibus quidem atque libero, facere eum repudiandae, qui accusantium odio sint sequi minima.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae a, voluptas fuga impedit similique temporibus ullam voluptatibus quidem atque libero, facere eum repudiandae, qui accusantium odio sint sequi minima.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae a, voluptas fuga impedit similique temporibus ullam voluptatibus quidem atque libero, facere eum repudiandae, qui accusantium odio sint sequi minima.
+    </p> 
+
+
+</body>
+</html>

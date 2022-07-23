@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions</title>
+    <style>
+        body {
+            background-color: rgb(170, 170, 158);
+            margin: 100px;
+        }
+
+        a {
+            display: inline-block;
+            color: white;
+            background-color: blueviolet;
+            width: 180px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+
+            /* transition-duration: 0.5s;
+            transition-delay: 0s;
+            transition-property: all; */
+            /* Menyra e aplikimit te ndryshimit te gjendjes .... */
+            /* transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+
+            transition: ease-in-out 0.3s 0.2s all; 
+        }
+
+        a:hover {
+            width: 280px;
+            height: 150px;
+            line-height: 150px;
+            color: blueviolet;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="#">
+        Lorem ipusm dolor
+    </a>
+
+</body>
+</html>

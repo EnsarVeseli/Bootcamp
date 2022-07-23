@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stilizimi i formulareve</title>
+    <style>
+        :root{
+            --border-color:rgba(0,0,0,0.75);
+            --gradiant-start: rgb(2,0,36);
+            --gradiant-middle: rgba(2,0,36,1);
+            --gradiant-end: rgba(138,39,136,1);
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            height: 100vh;
+            background: var(--gradiant-start);
+            background: linear-gradient(90deg, var(--gradiant-middle) 0%, var(--gradiant-end) 100%);
+        }
+        .login{
+            width: 300px;
+            border: 2px solid black;
+            padding: 30px;
+            margin: 100px auto;
+            -webkit-box-shadow: 10px 10px 5px 0px var(--border-color);
+            -moz-box-shadow: 10px 10px 5px 0px var(--border-color);
+            box-shadow: 10px 10px 5px 0px var(--border-color);
+        }
+        label{
+            display: none;
+            line-height:40px;
+        }
+        input{
+            border: 8px;
+            border-button: 2px solid black;
+            padding: 8px;
+            display: block;
+            width: 284px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form action="#">
+            <label for="username">Username</label>
+            <label type="text" name="usename" id="username">Username</label>
+        </form>
+    </div>
+</body>
+</html>
+<!--me kry-->

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            margin: 100px;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+
+        .red { background-color: red; }
+        .green { 
+            background-color: green; 
+            /* 
+            top/left/bottom/right  
+            aplikohen ne raport me pozicionin ku eshte i vendosur
+            elemnti
+            */
+            /* position: relative; */
+
+            /* 
+            top/left/bottom/right  
+            aplikohen ne raport me viewport
+            */
+            /* position: absolute; */
+
+            /* 
+            top/left/bottom/right  
+            aplikohen ne raport me viewport
+
+            + 
+
+            elementi mbetet i fiksuar me pozicionin e ri (qe eshte percaktuar me njeren apo disa nga vetite top/left/right/bottom)
+            */
+            position: fixed;
+            bottom: 420px;
+            left: 120px;
+        }
+        .blue { background-color: blue; }
+
+        .banner {
+            width: 100%;
+            background-color: antiquewhite;
+            padding: 40px 0px;
+
+            position: sticky;
+            left: 0px;
+            bottom: 0px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div> -->
+
+
+    <div class="content">
+        
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, pariatur sit doloremque culpa ratione molestias eos? Dicta id animi voluptatibus nobis fugit laborum necessitatibus totam obcaecati. Iste, ipsa dicta!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, explicabo sapiente dignissimos saepe cupiditate consectetur ipsam nesciunt quam culpa inventore illum recusandae quisquam consequatur praesentium dicta asperiores ullam. Officia.Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas distinctio ullam sit quaerat corrupti quidem tenetur nisi, atque id illum ipsa pariatur autem amet? Itaque molestiae repellat possimus magni?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, qui ut. Vel quis voluptatibus eos, et commodi accusamus reiciendis, facere ea nostrum eius consequuntur voluptatem voluptas, sunt quisquam doloremque laudantium.
+        </h1>
+
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, pariatur sit doloremque culpa ratione molestias eos? Dicta id animi voluptatibus nobis fugit laborum necessitatibus totam obcaecati. Iste, ipsa dicta!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, explicabo sapiente dignissimos saepe cupiditate consectetur ipsam nesciunt quam culpa inventore illum recusandae quisquam consequatur praesentium dicta asperiores ullam. Officia.Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas distinctio ullam sit quaerat corrupti quidem tenetur nisi, atque id illum ipsa pariatur autem amet? Itaque molestiae repellat possimus magni?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, qui ut. Vel quis voluptatibus eos, et commodi accusamus reiciendis, facere ea nostrum eius consequuntur voluptatem voluptas, sunt quisquam doloremque laudantium.
+        </h1>
+
+        <div class="banner">
+            <h1><a href="#footer">BANNER</a></h1>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, quam iste quae ipsam, excepturi quibusdam tenetur doloremque debitis voluptas ratione dolore quasi eveniet odit, distinctio modi quisquam sit doloribus. Voluptas.
+        </div>
+
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, pariatur sit doloremque culpa ratione molestias eos? Dicta id animi voluptatibus nobis fugit laborum necessitatibus totam obcaecati. Iste, ipsa dicta!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, explicabo sapiente dignissimos saepe cupiditate consectetur ipsam nesciunt quam culpa inventore illum recusandae quisquam consequatur praesentium dicta asperiores ullam. Officia.Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas distinctio ullam sit quaerat corrupti quidem tenetur nisi, atque id illum ipsa pariatur autem amet? Itaque molestiae repellat possimus magni?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, qui ut. Vel quis voluptatibus eos, et commodi accusamus reiciendis, facere ea nostrum eius consequuntur voluptatem voluptas, sunt quisquam doloremque laudantium.
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, pariatur sit doloremque culpa ratione molestias eos? Dicta id animi voluptatibus nobis fugit laborum necessitatibus totam obcaecati. Iste, ipsa dicta!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, explicabo sapiente dignissimos saepe cupiditate consectetur ipsam nesciunt quam culpa inventore illum recusandae quisquam consequatur praesentium dicta asperiores ullam. Officia.Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas distinctio ullam sit quaerat corrupti quidem tenetur nisi, atque id illum ipsa pariatur autem amet? Itaque molestiae repellat possimus magni?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, qui ut. Vel quis voluptatibus eos, et commodi accusamus reiciendis, facere ea nostrum eius consequuntur voluptatem voluptas, sunt quisquam doloremque laudantium.
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, pariatur sit doloremque culpa ratione molestias eos? Dicta id animi voluptatibus nobis fugit laborum necessitatibus totam obcaecati. Iste, ipsa dicta!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, explicabo sapiente dignissimos saepe cupiditate consectetur ipsam nesciunt quam culpa inventore illum recusandae quisquam consequatur praesentium dicta asperiores ullam. Officia.Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas distinctio ullam sit quaerat corrupti quidem tenetur nisi, atque id illum ipsa pariatur autem amet? Itaque molestiae repellat possimus magni?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, qui ut. Vel quis voluptatibus eos, et commodi accusamus reiciendis, facere ea nostrum eius consequuntur voluptatem voluptas, sunt quisquam doloremque laudantium.
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, pariatur sit doloremque culpa ratione molestias eos? Dicta id animi voluptatibus nobis fugit laborum necessitatibus totam obcaecati. Iste, ipsa dicta!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, explicabo sapiente dignissimos saepe cupiditate consectetur ipsam nesciunt quam culpa inventore illum recusandae quisquam consequatur praesentium dicta asperiores ullam. Officia.Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas distinctio ullam sit quaerat corrupti quidem tenetur nisi, atque id illum ipsa pariatur autem amet? Itaque molestiae repellat possimus magni?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, qui ut. Vel quis voluptatibus eos, et commodi accusamus reiciendis, facere ea nostrum eius consequuntur voluptatem voluptas, sunt quisquam doloremque laudantium.
+        </h1>
+        <footer id="footer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat minima eaque porro temporibus quasi? Repellat magni facilis sapiente ad accusantium maiores sint, tempore deserunt consectetur molestias voluptates odit reprehenderit.
+        </footer>
+    </div>
+
+</body>
+</html>

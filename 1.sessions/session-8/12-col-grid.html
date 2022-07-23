@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 columns Grid</title>
+    <style>
+        :root {
+            --col-width: 80px;
+            --col-margin: 10px;
+        }
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        .container div {
+            float: left;
+            /* background-color: red; */
+            margin: 5px;
+        }
+
+        .col-1 {
+            width: calc((1 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-2 {
+            width: calc((2 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-3 {
+            width: calc((3 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-4 {
+            width: calc((4 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-5 {
+            width: calc((5 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-6 {
+            width: calc((6 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-7 {
+            width: calc((7 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-8 {
+            width: calc((8 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-9 {
+            width: calc((9 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-10 {
+            width: calc((10 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-11 {
+            width: calc((11 * var(--col-width)) - var(--col-margin));
+        }
+
+        .col-12 {
+            width: calc((12 * var(--col-width)) - var(--col-margin));
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="col-12">
+            <h1>Grid options</h1>
+            <p>
+                Bootstrap’s grid system can adapt across all six default breakpoints, and any breakpoints you customize. The six default grid tiers are as follow
+            </p>
+        </div>
+        <div class="col-4">
+            <img src="nature.png" alt="" />
+        </div>
+        <div class="col-4">
+            <img src="nature.png" alt="" />
+        </div>
+        <div class="col-4">
+            <img src="nature.png" alt="" />
+        </div>
+        <div class="col-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est impedit nam ratione nemo, eos obcaecati magnam suscipit nulla numquam blanditiis ullam dolor! Perferendis architecto doloremque quis voluptates esse itaque!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, iure hic! Hic quas mollitia est non nam similique laborum dolore, vero eius sequi ex, numquam quaerat vitae corporis laudantium atque?
+        </div>
+        <div class="col-4">
+            <h3>Newsletter</h3>
+            <form action="#">
+                <input type="text" name="" placeholder="Enter your email" />
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="col-12">
+            <h3>Services</h3>
+        </div>
+        <div class="col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas qui delectus illum tempora excepturi, rem similique exercitationem aspernatur iusto molestias deleniti, dolore vel laboriosam fuga nostrum a blanditiis quo consequuntur.
+        </div>
+        <div class="col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas qui delectus illum tempora excepturi, rem similique exercitationem aspernatur iusto molestias deleniti, dolore vel laboriosam fuga nostrum a blanditiis quo consequuntur.
+        </div>
+        <div class="col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas qui delectus illum tempora excepturi, rem similique exercitationem aspernatur iusto molestias deleniti, dolore vel laboriosam fuga nostrum a blanditiis quo consequuntur.
+        </div>
+        <div class="col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas qui delectus illum tempora excepturi, rem similique exercitationem aspernatur iusto molestias deleniti, dolore vel laboriosam fuga nostrum a blanditiis quo consequuntur.
+        </div>
+    </div>
+
+</body>
+</html>

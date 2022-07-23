@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <br><br>
+        <input type="tel"  placeholder="Enter you telephone number">
+        <br><br>
+        <input type="search" placeholder="Search">
+        <br><br>
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
+        <input type="password" placeholder="Enter password">
+        <br><br> 
+        <input type="number" min="0" max="10">
+        <br><br>
+        <input type="color">
+        <br><br>
+        <input type="date">
+        <br><br>
+        <input type="time">
+        <br><br>
+        <input type="datetime-local">
+        <br><br>
+        <input type="week">
+        <br><br>
+        <input type="month">
+        <br><br>
+        <input type="file">
+        <br><br>
+        <input type="image" src="assets/waterfall.jpg">
+        <br><br>
+        <input type="hidden">
+        <br><br>
+        <input type="checkbox" id="BSc" checked>
+        <label for="BSc">BSc</label>
+        <input type="checkbox" id="MSc">
+        <label for="MSc">MSc</label>
+        <input type="checkbox" id="Phd">
+        <label for="Phd">Phd</label>
+        <br><br>
+        <input type="radio" id="M" name="gjinia" checked>
+        <label for="M">M</label>
+        <input type="radio" id="F" name="gjinia">
+        <label for="F">F</label>
+        <br><br>
+        <input type="range" min="0" max="10">
+        <br><br>
+        <input type="url">
+        <br><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Shkruaj posorine"></textarea>
+        <br><br>
+        <input list="students">
+        <datalist id="students">
+            <option value="Altin">Altin</option>
+            <option value="Arta">Arta</option>
+            <option value="Rona">Rona</option>
+            <option value="Artan">Artan</option>
+        </datalist>
+        <br><br>
+        <select>    
+                <option value="Altin">Altin</option>
+            <optgroup label="New students">
+                <option value="Arta">Arta</option>
+                <option value="Rona">Rona</option>
+            </optgroup>
+                <option value="Artan">Artan</option>
+        </select>
+        <br><br>
+        <progress value="70" max="100"></progress>
+        <br><br>
+        <fieldset>
+            <legend>Personal data</legend>
+            <input type="email" placeholder="Enter email">
+            <br><br>
+            <input type="password" placeholder="Enter password">
+        </fieldset>
+        <br><br>
+        <!--<input type="submit" placeholder="Submit">-->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
