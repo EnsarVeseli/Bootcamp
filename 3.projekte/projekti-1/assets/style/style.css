@@ -42,6 +42,13 @@ header ul li a:hover{
 header img{
 	padding: 10px 0px 0px 10px;
 }
+
+a.anchor{
+	display: block; 
+	position: relative; 
+	top: -150px; 
+	visibility: hidden;
+}
 /*Hero Img*/
 .hero-img{
 	width: 100%;
@@ -366,8 +373,4 @@ position: relative;
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
-}
-
-@media(min-width:421){
-
 }
